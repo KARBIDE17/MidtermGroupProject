@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MidtermGroupProject
 {
-    public class Media
+    public abstract class Media
     {
         public Media()
         {

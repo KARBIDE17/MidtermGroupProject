@@ -34,13 +34,37 @@ namespace MidtermGroupProject
 
 
 
+        }
+        public List<Book> BookSearch(int searchChoice, string input)
+        {
 
-
-
-
-
+            // ask user to searech by author or by title, if title use 1, if author use 2
+            // then take input and use it to search list for either title or author and return
+            // the book they  are looking for.
 
         }
+        public string BookCheckOut(string title, string author) 
+        {
+        
+            //check out a book, change status to checked out, set due date to 14 days from now
+        
+        }
 
+        public string BookCheckIn(string title, string author) 
+        {
+        
+            // check in a book, change status to available, remove due date
+        
+        }
+
+
+
+        public List<Book> BookCollection() 
+        {
+        
+            // print the entire collection of books to the console
+        
+        
+        }
     }
 }
