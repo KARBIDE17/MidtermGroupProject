@@ -39,14 +39,13 @@ namespace MidtermGroupProject
                 return mediaList;
             }
         }
-        public void FileUpdate(List<Media> parents) //maybe append instead
+        public void FileUpdate(List<Media> mediaList) //maybe append instead
         {
             using (StreamWriter sw = File.CreateText(FilePath))
             {
-                //may need to serialize
-                foreach (var item in parents)
+                foreach (var item in mediaList)
                 {
-                    sw.WriteLine(item);
+                    sw.WriteLine($"{item.Type};{item.Status};{item.CheckOutDate};{item.DueDate};{item.Title};{item.Author}");
                 }
             }
         }

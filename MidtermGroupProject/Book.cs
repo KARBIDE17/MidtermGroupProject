@@ -24,7 +24,7 @@ namespace MidtermGroupProject
         public override DateOnly? DueDate { get; set; } //SMJ
 
         public override string Title { get; set; }
-        public string Author { get; set; }
+        public override string? Author { get; set; }
 
     }
 }

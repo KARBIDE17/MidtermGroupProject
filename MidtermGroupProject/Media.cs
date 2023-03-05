@@ -21,13 +21,12 @@ namespace MidtermGroupProject
 
         //}
 
-        public abstract string Title { get; set; } //make non-nullable
+        public abstract string Title { get; set; }
         public abstract string Status { get; set; }
-
-        //SMJ
         public abstract DateOnly? DueDate { get; set; }
         public abstract string Type { get; set; }
-        public abstract DateOnly? CheckOutDate { get; set; } //cant make this nullable, throwing error
+        public abstract DateOnly? CheckOutDate { get; set; }
+        public abstract string? Author { get; set; }
 
     }
 }
