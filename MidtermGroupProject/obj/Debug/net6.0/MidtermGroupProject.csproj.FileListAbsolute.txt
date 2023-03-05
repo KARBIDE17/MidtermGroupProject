@@ -1,0 +1,15 @@
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\MidtermGroupProject.csproj.AssemblyReference.cache
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\MidtermGroupProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\MidtermGroupProject.AssemblyInfoInputs.cache
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\MidtermGroupProject.AssemblyInfo.cs
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\MidtermGroupProject.csproj.CoreCompileInputs.cache
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\bin\Debug\net6.0\MidtermGroupProject.exe
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\bin\Debug\net6.0\MidtermGroupProject.deps.json
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\bin\Debug\net6.0\MidtermGroupProject.runtimeconfig.json
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\bin\Debug\net6.0\MidtermGroupProject.dll
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\bin\Debug\net6.0\MidtermGroupProject.pdb
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\MidtermGroupProject.dll
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\refint\MidtermGroupProject.dll
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\MidtermGroupProject.pdb
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\MidtermGroupProject.genruntimeconfig.cache
+C:\Users\scott\Desktop\GrandCircus\Repositories\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\ref\MidtermGroupProject.dll
