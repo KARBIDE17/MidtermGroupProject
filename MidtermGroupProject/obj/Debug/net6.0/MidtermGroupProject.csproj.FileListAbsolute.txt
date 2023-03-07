@@ -1,0 +1,5 @@
+C:\Users\chris\Source\Repos\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\MidtermGroupProject.csproj.AssemblyReference.cache
+C:\Users\chris\Source\Repos\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\MidtermGroupProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\Source\Repos\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\MidtermGroupProject.AssemblyInfoInputs.cache
+C:\Users\chris\Source\Repos\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\MidtermGroupProject.AssemblyInfo.cs
+C:\Users\chris\Source\Repos\MidtermGroupProject\MidtermGroupProject\obj\Debug\net6.0\MidtermGroupProject.csproj.CoreCompileInputs.cache
