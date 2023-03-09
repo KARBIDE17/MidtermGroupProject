@@ -10,19 +10,31 @@ namespace MidtermGroupProject
     {
         public List<Book> Books { get; set; }
 
-        //public List<Book> BookSearch(int searchChoice, string input)
-        //{
+        public List<Media> BookSearch(string searchCategory, string input, List<Media> mediaList)
+        {
+            List<Media> list = new List<Media>();
+            if (searchCategory.ToLower() == "author")
+            {
+                if (mediaList.Where(book => book.Author.ToLower().Contains(input)).ToList().Any())
+                {
+                    return mediaList.Where(book => book.Author.ToLower().Contains(input)).ToList();
+                }   
+            }
+            else
+            {
+                if (mediaList.Where(book => book.Title.ToLower().Contains(input)).ToList().Any())
+                {
+                    return mediaList.Where(book => book.Title.ToLower().Contains(input)).ToList();
+                }
+            }
+            return list; //possible to return an empty list
+        }
 
-        //    // ask user to searech by author or by title, if title use 1, if author use 2
-        //    // then take input and use it to search list for either title or author and return
-        //    // the book they  are looking for.
-
-        //}
         public string CheckOut(List<Media> mediaList, string title)
         {
             foreach (var item in mediaList)
             {
-                if (item.Title.Contains(title))
+                if (item.Title.ToLower().Contains(title))
                 {
                     mediaList.Single(x => x.Title == item.Title).Status = "Checked Out";
                     mediaList.Single(x => x.Title == item.Title).DueDate = DateOnly.FromDateTime(DateTime.Now).AddDays(14);
@@ -37,7 +49,7 @@ namespace MidtermGroupProject
         {
             foreach (var item in mediaList)
             {
-                if (item.Title.Contains(title))
+                if (item.Title.ToLower().Contains(title))
                 {
                     mediaList.Single(x => x.Title == item.Title).Status = "Available";
                     mediaList.Single(x => x.Title == item.Title).DueDate = null;
@@ -48,12 +60,10 @@ namespace MidtermGroupProject
             return "I dont recognize that title.";
         }
 
-        //public List<Book> BookCollection() 
-        //{
-
-        //    // print the entire collection of books to the console
-
-
-        //}
+        public List<Media> Collection(string type)
+        {
+            List<Media> list = new List<Media>();
+            return list.Where(x => x.Type.ToLower() == type).ToList(); //can return empty list
+        }
     }
 }
