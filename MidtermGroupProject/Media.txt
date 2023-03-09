@@ -14,3 +14,12 @@ Book;Checked Out;3/4/2023;3/11/2023;The Dark Tower IV: Wizard and Glass;Stephen 
 Book;Checked Out;3/4/2023;3/11/2023;The Dark Tower V: The Wolves of the Calla;Stephen King
 Book;Checked Out;3/4/2023;3/11/2023;The Dark Tower VI: Song of Susannah;Stephen King
 Book;Checked Out;3/4/2023;3/11/2023;The Dark Tower VII: The Dark Tower;Stephen King
+Book;Checked Out;3/4/2023;3/11/2023;The Great Gatsby
+Book;Available;;;I Am Pilgrim;Terry Hayes
+Book;Checked Out;3/4/2023;3/11/2023;Great Dune Trilogy;Frank Herbert
+Book;Checked Out;3/4/2023;3/11/2023;The Reckoning;John Grisham
+Book;Available;;;Moveable Feast;Ernest Hemingway
+Book;Available;;;The Name of the Wind;Patrick Rothfuss
+Book;Available;;;Pulse;Michael Harvey
+Book;Checked Out;The Outsider;Albert Camus
+Book;Available;;;All The Light You Cannot See;Anthony Doerr
