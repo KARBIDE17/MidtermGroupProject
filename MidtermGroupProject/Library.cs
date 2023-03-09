@@ -42,6 +42,10 @@ namespace MidtermGroupProject
                     return $"Thank you checking out {item.Title}!";
                 }
             }
+            if (mediaList.Single(x => (x.Title.ToLower().Contains(title)) && (x.Status == "Checked Out")) is not null)
+            {
+                return "This title is already checked out.";
+            }
             return "I dont recognize that title.";
         }
 
@@ -56,6 +60,10 @@ namespace MidtermGroupProject
                     mediaList.Single(x => x.Title == item.Title).CheckOutDate = null;
                     return $"Thank you for returning {item.Title}!";
                 }
+            }
+            if (mediaList.Single(x => (x.Title.ToLower().Contains(title)) && (x.Status == "Checked In")) is not null)
+            {
+                return "This title is already checked in.";
             }
             return "I dont recognize that title.";
         }
