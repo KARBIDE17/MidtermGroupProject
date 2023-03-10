@@ -25,7 +25,7 @@ namespace MidtermGroupProject
                 string s;
                 while ((s = sr.ReadLine()) != null)
                 {
-                    string[] values = s.Split(";"); //can change delimiter to anything
+                    string[] values = s.Split(";");
 
                     DateOnly? checkOutDateFromFile = DateOnly.TryParse(values[2], out DateOnly CheckOutDate) ? CheckOutDate : null;
                     DateOnly? dueDateFromFile = DateOnly.TryParse(values[3], out DateOnly DueDate) ? DueDate : null;
@@ -39,7 +39,7 @@ namespace MidtermGroupProject
                 return mediaList;
             }
         }
-        public void FileUpdate(List<Media> mediaList) //maybe append instead
+        public void FileUpdate(List<Media> mediaList)
         {
             using (StreamWriter sw = File.CreateText(FilePath))
             {

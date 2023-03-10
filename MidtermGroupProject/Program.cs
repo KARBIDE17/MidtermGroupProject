@@ -35,8 +35,8 @@ do
             Console.WriteLine("Title: " + book.Title + ".  ");
             Console.WriteLine("Author: " + book.Author + ".  ");
             Console.WriteLine("Status: " + book.Status + ".  ");
-            Console.WriteLine("Check Out Date" + book.CheckOutDate + ".  ");
-            Console.WriteLine("Due Date" + book.DueDate + ".  ");
+            Console.WriteLine("Check Out Date: " + book.CheckOutDate + ".  ");
+            Console.WriteLine("Due Date: " + book.DueDate + ".  ");
             Console.WriteLine("Media Type:" + book.Type + ".  ");
             Console.WriteLine();
             Console.WriteLine();
@@ -60,16 +60,16 @@ do
 
             List<Media> searchResults = mediaList.Where(book => book.Title.ToLower().Contains(title)).ToList();
 
+            Console.WriteLine("Here are all book(s) with the title: " + titleInput);
+
             foreach (Book book in searchResults)
             {
-
-                Console.WriteLine("Here are all books with the title: " + titleInput);
                 Console.WriteLine();
                 Console.WriteLine("Title: " + book.Title + ".  ");
                 Console.WriteLine("Author: " + book.Author + ".  ");
                 Console.WriteLine("Status: " + book.Status + ".  ");
-                Console.WriteLine("Check Out Date" + book.CheckOutDate + ".  ");
-                Console.WriteLine("Due Date" + book.DueDate + ".  ");
+                Console.WriteLine("Check Out Date: " + book.CheckOutDate + ".  ");
+                Console.WriteLine("Due Date: " + book.DueDate + ".  ");
                 Console.WriteLine("Media Type:" + book.Type + ".  ");
                 Console.WriteLine();
                 Console.WriteLine();
@@ -86,16 +86,16 @@ do
 
             List<Media> searchResults = mediaList.Where(book => book.Author.ToLower().Contains(author)).ToList();
 
+            Console.WriteLine("Here are all book(s) by the author: " + author);
+
             foreach (Book book in searchResults)
             {
-
-                Console.WriteLine("Here are all books with the title: " + author);
                 Console.WriteLine();
                 Console.WriteLine("Title: " + book.Title + ".  ");
                 Console.WriteLine("Author: " + book.Author + ".  ");
                 Console.WriteLine("Status: " + book.Status + ".  ");
-                Console.WriteLine("Check Out Date" + book.CheckOutDate + ".  ");
-                Console.WriteLine("Due Date" + book.DueDate + ".  ");
+                Console.WriteLine("Check Out Date: " + book.CheckOutDate + ".  ");
+                Console.WriteLine("Due Date: " + book.DueDate + ".  ");
                 Console.WriteLine("Media Type:" + book.Type + ".  ");
                 Console.WriteLine();
                 Console.WriteLine();
@@ -117,7 +117,7 @@ do
 
         Console.WriteLine("Which book would you like to check out? Please enter the title");
         string checkOutBook = Console.ReadLine().ToLower();
-        List<Media> bookList = mediaList.Where(x => (x.Type == "Book") && (x.Status == "Available")).ToList();
+        List<Media> bookList = mediaList.Where(x => x.Type == "Book").ToList();
         Console.WriteLine(library.CheckOut(bookList, checkOutBook));
 
     }
