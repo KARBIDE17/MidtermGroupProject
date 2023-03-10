@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\steve\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\sjanda\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\steve\\source\\repos\\MidtermGroupProject\\MidtermGroupProject\\MidtermGroupProject.csproj",
+      "projectUniqueName": "C:\\Users\\sjanda\\Desktop\\GrandCircus\\Projects\\MidtermGroupProject\\MidtermGroupProject\\MidtermGroupProject.csproj",
       "projectName": "MidtermGroupProject",
-      "projectPath": "C:\\Users\\steve\\source\\repos\\MidtermGroupProject\\MidtermGroupProject\\MidtermGroupProject.csproj",
-      "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\steve\\source\\repos\\MidtermGroupProject\\MidtermGroupProject\\obj\\",
+      "projectPath": "C:\\Users\\sjanda\\Desktop\\GrandCircus\\Projects\\MidtermGroupProject\\MidtermGroupProject\\MidtermGroupProject.csproj",
+      "packagesPath": "C:\\Users\\sjanda\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sjanda\\Desktop\\GrandCircus\\Projects\\MidtermGroupProject\\MidtermGroupProject\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\sjanda\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
